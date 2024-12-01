@@ -1,6 +1,7 @@
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { data } from "../utils/index.js";
 import { CiPlay1 } from "react-icons/ci";
+import updateprotfolio from "../img/updatedResume.pdf"
 const Protfolio = () => {
 
     return (
@@ -21,7 +22,7 @@ const Protfolio = () => {
                 </SyntaxHighlighter>
             </div>
            <div className="flex h-10 w-24 bg-green-500 relative rounded-md shadow-lg">
-            <a href="/" className="h-full w-full grid place-content-center text-2xl ">
+            <a href={updateprotfolio} download className="h-full w-full grid place-content-center text-2xl ">
              <CiPlay1 />
             </a>
            </div>

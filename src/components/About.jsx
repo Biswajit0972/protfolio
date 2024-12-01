@@ -15,7 +15,7 @@ const About = () => {
                   <div className=" bg-blue-500 relative h-[260px] w-[260px] rounded-full overflow-hidden">
                       <img src={boss} alt="logo" className="relative h-full w-full object-cover" />
                   </div>
-                  <div className="absolute h-[160px] w-[160px] bottom-0 right-5 rounded-full overflow-hidden">
+                  <div className=" hidden absolute h-[160px] w-[160px] bottom-0 right-5 rounded-full overflow-hidden">
                       <CircularText/>
                   </div>
               </Box>
