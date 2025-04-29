@@ -18,21 +18,18 @@ const App = () => {
       >
         <Home />
       </section>
-      <section
-        id="about"
-        className="relative w-full overflow-x-hidden "
-      >
-      <About />
+      <section id="about" className="relative w-full overflow-x-hidden ">
+        <About />
       </section>
-        <section className="w-full relative overflow-x-hidden" id="portfolio">
-            <Portfolio />
-        </section>
-        <section className=" w-full relative overflow-x-hidden" id="project">
+      <section className="w-full relative overflow-x-hidden" id="portfolio">
+        <Portfolio />
+      </section>
+      <section className=" w-full relative overflow-x-hidden" id="project">
         <Project />
-        </section>
-        <section className=" w-full relative overflow-x-hidden" id="contact">
-         <ContactMe/>
-        </section>
+      </section>
+      <section className=" w-full relative overflow-x-hidden" id="contact">
+        <ContactMe />
+      </section>
     </div>
   );
 };

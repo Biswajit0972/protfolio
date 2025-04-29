@@ -7,7 +7,7 @@ import { Navigation } from "./context/Navigation.jsx";
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <Navigation>
-            <App />
-        </Navigation>
+      <App />
+    </Navigation>
   </StrictMode>
 );

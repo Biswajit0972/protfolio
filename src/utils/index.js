@@ -1,86 +1,86 @@
-import { FaHome, FaUserAlt, FaBriefcase, FaEnvelope } from "react-icons/fa";
-import { FiSettings } from "react-icons/fi";
-import { BsCodeSlash } from "react-icons/bs";
-import { GiBookmark } from "react-icons/gi";
-import { BsHandbag } from "react-icons/bs";
+import {FaHome, FaUserAlt, FaBriefcase, FaEnvelope} from "react-icons/fa";
+import {FiSettings} from "react-icons/fi";
+import {BsCodeSlash} from "react-icons/bs";
+import {GiBookmark} from "react-icons/gi";
+import {BsHandbag} from "react-icons/bs";
 import vscode from "../img/vscode.png";
 import git from "../img/Git-Icon-1788C.png";
 import mongodb from "../img/MongoDB_Logomark_SpringGreen.svg";
 import supabse from "../img/supabase-logo-icon.png";
 import passwordGen from "../img/passwordCover.png";
 import Note from "../img/Note.png";
+
 export const navigationItems = [
-  {
-    id: 1,
-    name: "Home",
-    path: "/#home",
-    icon: FaHome, // Pass the component itself
-  },
-  {
-    id: 2,
-    name: "About",
-    path: "/#about",
-    icon: FaUserAlt,
-  },
-  {
-    id: 3,
-    name: "Portfolio",
-    path: "/#portfolio",
-    icon: FaBriefcase,
-  },
-  {
-    id: 4,
-    name: "Projects",
-    path: "/#project",
-    icon: FiSettings,
-  },
-  {
-    id: 5,
-    name: "Contact",
-    path: "/#contact",
-    icon: FaEnvelope,
-  },
+    {
+        id: 1,
+        name: "Home",
+        path: "/#home",
+        icon: FaHome, // Pass the component itself
+    },
+    {
+        id: 2,
+        name: "About",
+        path: "/#about",
+        icon: FaUserAlt,
+    },
+    {
+        id: 3,
+        name: "Portfolio",
+        path: "/#portfolio",
+        icon: FaBriefcase,
+    },
+    {
+        id: 4,
+        name: "Projects",
+        path: "/#project",
+        icon: FiSettings,
+    },
+    {
+        id: 5,
+        name: "Contact",
+        path: "/#contact",
+        icon: FaEnvelope,
+    },
 ];
 
 export const aboutItems = [
-  {
-    id: 1,
-    mainText: "Tech Stack",
-    icon:  BsCodeSlash,
-    subText: "html, css, javaScript, React JS,  Next JS."
-  },
-  {
-    id: 2,
-    mainText: "Education",
-    icon: GiBookmark,
-    subText: "BCA in computer science"
-  },
-  {
-    id: 3,
-    mainText: "Projects",
-    icon: BsHandbag,
-    subText: "Total projects 3"
-  }
+    {
+        id: 1,
+        mainText: "Tech Stack",
+        icon: BsCodeSlash,
+        subText: "html, css, javaScript, React JS,  Next JS."
+    },
+    {
+        id: 2,
+        mainText: "Education",
+        icon: GiBookmark,
+        subText: "BCA in computer science"
+    },
+    {
+        id: 3,
+        mainText: "Projects",
+        icon: BsHandbag,
+        subText: "Total projects 9"
+    }
 ]
 
 
-
 export const imagesArr = [
-  {
-    id: 1,
-    image: vscode,
-  }, {
-    id: 2,
-    image: git,
-  }
-  ,{
-  id: 3,
-    image: mongodb,
-  },
-  {
-    id: 4,
-    image: supabse,
-  }
+    {
+        id: 1,
+        image: vscode,
+    }, {
+        id: 2,
+        image: git,
+    }
+    , {
+        id: 3,
+        image: mongodb,
+    },
+    {
+        id: 4,
+        image: supabse,
+    }
 ]
 
 export const data = "// Meet the Coding Wizard - Biswajit Das\n" +
@@ -194,19 +194,44 @@ export const data = "// Meet the Coding Wizard - Biswajit Das\n" +
     "displayInfo();\n"
 
 export const projectItems = [
-  {
-    id: 1,
-    coverImage: Note,
-    projectHeading: "Note Management REST API",
-    liveLink: "https://backend-service-two.vercel.app/",
-    githubLink: "https://github.com/Biswajit0972/Backend-service",
-    description: "A simple notes management api build in on express Js along with mongodb Database. Where can store there notes.",
-  },{
-    id: 2,
-    coverImage: passwordGen,
-    projectHeading: "Free password  generator",
-    liveLink: "https://password-generator-seven-nu-26.vercel.app/",
-    githubLink: "https://github.com/Biswajit0972/password-generator2",
-    description: "Free password generator frontend app. Totally running on client side, build in using react and tailwind. more.."
-  }
+    {
+        id: 5,
+        coverImage: passwordGen,
+        projectHeading: "PlayApi  with frontend ",
+        liveLink: "https://fake-data-api-wus7.vercel.app/",
+        githubLink: "https://github.com/Biswajit0972/fakeDataApi/blob/main/readme.md",
+        description: "PlayAPI is a developer-friendly mock API service built with Node.js and Express, designed to help learners and developers practice full-stack development workflows and reduce their learning time by up to 30% through ready-to-use, real-world endpoints"
+    },
+    {
+        id: 2,
+        coverImage: passwordGen,
+        projectHeading: "Free password  generator",
+        liveLink: "https://password-generator-seven-nu-26.vercel.app/",
+        githubLink: "https://github.com/Biswajit0972/password-generator2",
+        description: "Free password generator frontend app. Totally running on client side, build in using react and tailwind. more.."
+    },
+    {
+        id: 1,
+        coverImage: Note,
+        projectHeading: " TODO using Localstorage (Practice!)",
+        liveLink: "https://todo-woad-three-73.vercel.app/",
+        githubLink: "https://github.com/Biswajit0972/todo",
+        description: "A Todo application, which use your localstorage to store your task and you can perform CURD operation.",
+    },
+    {
+        id: 3,
+        coverImage: passwordGen,
+        projectHeading: "Expense splitter with friends",
+        liveLink: "https://track-your-money-with-your-hostel-friend.vercel.app/",
+        githubLink: "https://github.com/Biswajit0972/Track-your-money-with-your-hostel-friend",
+        description: "It is a simple application, which helps you to split your shopping or food bill  with your friend. you  don't need remember, when you had owes your friend"
+    },
+    {
+        id: 4,
+        coverImage: passwordGen,
+        projectHeading: "Algoroot dashboard",
+        liveLink: "https://algo-root-assignment.vercel.app/",
+        githubLink: "https://github.com/Biswajit0972/Algo-root-assignment",
+        description: "It is a single  page application, which provides fake authentication system to the customer and searching/sorting data."
+    }
 ]

@@ -1,64 +1,67 @@
 @import url("https://fonts.googleapis.com/css2?family=Boogaloo&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Barriecito&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 @layer utilities {
-  .bg-red {
-    @apply bg-red-500;
-  }
+    .bg-red {
+        @apply bg-red-500;
+    }
 
-  .flex-center {
-    @apply flex justify-center items-center;
-  }
+    .flex-center {
+        @apply flex justify-center items-center;
+    }
 
-  .flex-between {
-    @apply flex justify-between items-center;
-  }
+    .flex-between {
+        @apply flex justify-between items-center;
+    }
 
-  .flex-gap {
-    @apply flex items-center;
-  }
-  .logo {
-    @apply relative;
-  }
-  .left-box {
-@apply py-2 lg:p-3 lg:grid lg:place-content-center;
-  }
+    .flex-gap {
+        @apply flex items-center;
+    }
 
-  .right-box {
+    .logo {
+        @apply relative;
+    }
 
-  }
+    .left-box {
+        @apply py-2 lg:p-3 lg:grid lg:place-content-center;
+    }
 
-  .custom-box-shadow {
-box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.9);
-    transition: box-shadow .4s;
-  }
+    .right-box {
+
+    }
+
+    .custom-box-shadow {
+        box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.9);
+        transition: box-shadow .4s;
+    }
 }
 
 .boogaloo-regular {
-  font-family: "Boogaloo", serif;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Boogaloo", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 
 .home-path {
-  clip-path: polygon(5% 6%, 100% 0%, 95% 94%, 0% 100%);
+    clip-path: polygon(5% 6%, 100% 0%, 95% 94%, 0% 100%);
 }
 
 ::-webkit-scrollbar {
-  display: none; /* Hides scrollbar in WebKit browsers (Chrome, Safari) */
+    display: none; /* Hides scrollbar in WebKit browsers (Chrome, Safari) */
 }
 
 html, body {
-  scroll-behavior: smooth;
-  -ms-overflow-style: none; /* Hides scrollbar in Internet Explorer */
-  scrollbar-width: none;    /* Hides scrollbar in Firefox */
-  /*scrollbar-width: none;*/
+    scroll-behavior: smooth;
+    -ms-overflow-style: none; /* Hides scrollbar in Internet Explorer */
+    scrollbar-width: none; /* Hides scrollbar in Firefox */
+    /*scrollbar-width: none;*/
 }
 
 .lenis-wrapper {
-  height: 100vh; /* Allow Lenis to control the scroll */
-  overflow: hidden; /* Disable native scroll */
+    height: 100vh; /* Allow Lenis to control the scroll */
+    overflow: hidden; /* Disable native scroll */
 }
