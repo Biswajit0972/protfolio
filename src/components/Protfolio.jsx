@@ -1,7 +1,7 @@
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { data } from "../utils/index.js";
 import { CiPlay1 } from "react-icons/ci";
-import updateprotfolio from "../img/My resume .docx.pdf"
+import updateprotfolio from "../img/My resume.pdf"
 const Protfolio = () => {
 
     return (
